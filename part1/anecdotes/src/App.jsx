@@ -19,6 +19,7 @@ const App = () => {
   const setMax = () => {
     let mx = Math.max(...votes);
     let ind = (votes.indexOf(mx))
+    
     setMaxIndex(ind);
   }
   const nextAnec = () => setSelected(randomIndex(anecdotes.length))
